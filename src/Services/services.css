@@ -1,0 +1,102 @@
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  gap: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.services-item {
+  width: 20%;
+}
+
+.services-item h2 {
+  font-size: 18px;
+  color: #333;
+}
+
+.services-item p {
+  font-size: 14.99px;
+}
+
+.services-item {
+  display: flex;
+  gap: 10px;
+}
+
+.se-i-icon {
+  font-size: 28px;
+}
+
+.services-bg-top {
+  height: 100px;
+  width: 100%;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMjBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmNWY2ZjciPjxwYXRoIGQ9Ik0wIDB2MTQwaDEyODBMMCAweiIvPjwvZz48L3N2Zz4=);
+  background-size: 100% 120px;
+  height: 120px;
+  z-index: 1;
+  transform: scale(1, 1);
+  rotate: 180deg;
+}
+
+.services-bg-bot {
+  height: 100px;
+  width: 100%;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMjBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmNWY2ZjciPjxwYXRoIGQ9Ik0wIDB2MTQwaDEyODBMMCAweiIvPjwvZz48L3N2Zz4=);
+  background-size: 100% 120px;
+  height: 120px;
+  z-index: 1;
+  transform: scale(1, 1);
+}
+
+.services-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.se-i-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.se-i-text p {
+  line-height: 2;
+  color: #666;
+}
+
+.se-i-icon {
+  color: #3050d1;
+}
+
+@media (max-width: 1000px) {
+  .services-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .services-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .services-item {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .services-container {
+    display: flex;
+
+    flex-direction: column;
+  }
+}
+
+.services-item {
+  width: 23%;
+}

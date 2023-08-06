@@ -1,0 +1,161 @@
+.contact {
+  background-image: url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/07/Footer-Bg.png");
+  background-color: #3050d1 !important;
+}
+
+.contact-item-1 {
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+  gap: 20px;
+}
+
+.contact-submit {
+  text-align: right;
+}
+
+.contact-item-1 {
+  width: 50%;
+  font-size: 24px;
+}
+
+.contact-input-box {
+  display: flex;
+  gap: 3%;
+  justify-content: right;
+}
+
+.contact textarea {
+  width: 80%;
+  height: 160px;
+  padding-left: 15px;
+  padding-top: 10px;
+
+  border: none;
+  outline: none;
+}
+
+.contact input {
+  border: none;
+  outline: none;
+  width: 38.5%;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-name {
+  margin-bottom: 80px;
+  font-size: 36px;
+  color: white;
+}
+
+.contact-submit button {
+  padding: 18px 28px;
+  color: white;
+
+  background-color: #faa152;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.c-i-2-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.c-i-2-cont {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-main {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.contact-icon {
+  font-size: 24px;
+  color: #006ce0;
+}
+
+.c-i-2-item {
+  color: white;
+  font-size: 20px;
+}
+
+.co-i-box {
+  border-radius: 100% 100% 100% 100%;
+  overflow: hidden;
+  padding-top: 8px !important;
+  padding-right: 8px !important;
+  padding-bottom: 8px !important;
+  padding-left: 8px !important;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-main {
+  padding-bottom: 80px;
+}
+
+@media (max-width: 600px) {
+  .contact-main {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-main {
+    flex-direction: column;
+  }
+  .contact-input-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-input-box input {
+    width: 100%;
+  }
+  .contact-textarea textarea {
+    width: 100%;
+  }
+
+  .contact-item-1 {
+    width: 70%;
+  }
+
+  .contact-item-2 {
+    width: 70%;
+    text-align: left;
+    display: flex;
+
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .c-i-2-item p {
+    font-weight: 600;
+  }
+
+  .contact-main {
+    gap: 30px;
+  }
+}
+
+.c-i-2-cont {
+  gap: 40px;
+}
+
+.c-i-2-item {
+  gap: 30px;
+}

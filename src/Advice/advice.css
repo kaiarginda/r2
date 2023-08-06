@@ -1,0 +1,110 @@
+.advice-bg-top {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNjBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoMCwwLDAsMC4xKSI+PHBhdGggZD0iTTEyODAgMTQwVjBIMGwxMjgwIDE0MHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMTI4MCA5OFYwSDBsMTI4MCA5OHoiLz48L2c+PC9zdmc+");
+  background-size: 100% 160px;
+  height: 160px;
+  z-index: 1;
+  transform: scale(1, -1);
+}
+
+.advice-main-top-bg {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyNjBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmYWExNTIiPjxwYXRoIGQ9Ik0xMjgwIDE0MFYwSDBsMTI4MCAxNDB6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTEyODAgOThWMEgwbDEyODAgOTh6Ii8+PC9nPjwvc3ZnPg==);
+  background-size: 100% 260px;
+  height: 260px;
+  z-index: 999 !important;
+  transform: scale(1, 1);
+}
+
+.advice-main {
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      212deg,
+      rgba(43, 78, 136, 0.6) 0%,
+      #063661 100%
+    ),
+    url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/07/Car-Rental-Image-09.jpg) !important;
+}
+
+.advice-container {
+  color: white;
+}
+
+.advice-boxes {
+  padding-left: 100px;
+
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad-box-1 {
+  text-align: left;
+}
+
+.ad-box-2 {
+  text-align: left;
+}
+.advice-name {
+  font-size: 32px;
+}
+
+.advice-container {
+  /* padding-top: 50px; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.advice button {
+  padding: 20px 36px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  background-color: #faa152;
+  color: white;
+}
+
+.advice a {
+  color: white !important;
+  font-size: 24px;
+
+  font-weight: 600;
+}
+
+.advice-boxes-item {
+  display: flex;
+
+  flex-direction: column;
+  gap: 20px;
+}
+
+.advice-boxes-item p {
+  max-width: 600px;
+  font-size: 18px;
+
+  line-height: 1.8rem;
+  letter-spacing: 2px;
+}
+
+.advice-boxes {
+  gap: 50px;
+}
+
+.advice-main {
+  padding-bottom: 50px !important;
+}
+
+@media (max-width: 800px) {
+  .advice-boxes {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .advice-boxes {
+    flex-direction: column;
+  }
+}

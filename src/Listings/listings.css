@@ -1,0 +1,178 @@
+.ls-row-4-top {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.listings-item {
+  width: 30%;
+}
+.listings-item img {
+  width: 100%;
+}
+
+.listings {
+  padding-bottom: 100px;
+}
+
+.listings-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.listings-item ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.listings-item {
+  transition: all 1.5s ease !important;
+}
+
+.ls-row-4 {
+  overflow: hidden;
+}
+
+.height-300 {
+  height: 300px !important;
+}
+
+.ls-row-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  transition: all 1.5s ease;
+  height: 40px;
+}
+
+.listings-item button {
+  z-index: 9999;
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 20px;
+  transform: translateY(50%);
+  background-color: #faa152;
+  outline: none;
+  border: 1px solid #faa152;
+}
+
+.ls-button-box {
+  display: flex;
+  justify-content: center;
+  z-index: 999999999999999999;
+  background: local;
+  align-items: center;
+  width: 100%;
+  /* height: 30px; */
+  background-color: white;
+}
+
+.ls-row-4 {
+}
+
+.listings {
+  background-color: #f5f6f7;
+}
+
+.listings-item {
+  background-color: white;
+}
+
+.ls-row-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.ls-row-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.ls-row-2 {
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.ls-row-3 ul li {
+  display: flex;
+  gap: 40px;
+}
+
+.ls-row-2,
+.ls-row-3 {
+  border-bottom: 1px solid rgb(51, 51, 51, 0.2);
+}
+
+.ls-row-4 {
+  padding-top: 20px;
+}
+
+@media (max-width: 1100px) {
+  .listings-main {
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+  }
+
+  .listings-item {
+    font-size: 24px;
+    width: 90%;
+  }
+  .ls-row-4 {
+    height: 50px;
+  }
+}
+
+@media (max-width: 825px) {
+  .height-300 {
+    height: 400px !important;
+  }
+}
+
+.ls-row-4-bot p {
+  color: #666;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+@media (max-width: 400px) {
+  .height-300 {
+    height: 450px;
+  }
+}
+
+.ls-row-2 p {
+  color: #faa152;
+}
+.ls-row-2 h3 {
+  font-weight: 600;
+}
+
+.color {
+  color: blue;
+}
+
+.ls-row-3 ul li span {
+  display: flex;
+  align-items: center !important;
+}
+
+.ls-button-box button {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 20px;
+  cursor: pointer;
+}

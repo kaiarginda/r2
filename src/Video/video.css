@@ -1,0 +1,327 @@
+.vid-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: left;
+}
+
+.v-l-1 p {
+  /* max-width: 700px; */
+}
+
+.video ul {
+  list-style: none;
+}
+
+.v-l-2 {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+.v-r-icon {
+  display: flex;
+}
+
+.v-r-content p {
+  max-width: 300px;
+}
+
+.v-r-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  text-align: left;
+  padding-left: 20px;
+
+  border-left: 5px solid #3050d1;
+}
+
+.vid-right ul {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+}
+
+.v-l-3 {
+  display: flex;
+}
+
+.v-l-3-r img {
+  height: 192px;
+  width: 320px;
+}
+
+.v-l-3-l h4 {
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.v-l-3-l p {
+  /* max-width: 590px; */
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.v-l-3-l {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+}
+/* 
+.v-l-2 video {
+  width: 100%;
+  height: 100%;
+} */
+
+.vid-left {
+  gap: 50px;
+}
+
+.v-l-3 {
+  gap: 50px;
+}
+
+.v-l-1 h3 {
+  font-size: 60px;
+}
+
+.v-l-1 p {
+  width: 100% !important;
+  font-size: 18px;
+  color: #666;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+.vid-left {
+  max-width: 700px;
+}
+
+.v-l-2 {
+  height: 700px;
+}
+
+.v-l-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.v-r-content p {
+  font-weight: 400;
+
+  color: #666;
+  line-height: 2;
+}
+
+.vid-right ul {
+  gap: 30px;
+}
+
+.vid-right li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.v-r-icon-i {
+  font-size: 28px;
+}
+
+.v-r-content h5 {
+  font-size: 18px;
+  color: #666;
+}
+/*  */
+
+.dropdown-item {
+  width: 700px;
+}
+
+.dropdown-item {
+  text-align: left;
+  overflow: hidden;
+  height: 60px;
+  background-color: #f7f7f7;
+  color: #666666;
+  transition: all 1s ease;
+}
+.dropdown-item-top {
+  padding-bottom: 30px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.h-1 {
+  height: 250px !important;
+}
+
+.dropdown-item-bot p {
+  padding-bottom: 60px;
+  border-color: #f7f7f7;
+}
+
+.dropdown-main {
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+}
+
+.dropdown-item-top {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.dropdown-item-bot {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.dropdown--bg {
+  height: 10px;
+  width: 700px;
+  background-color: #f7f7f7;
+  margin-bottom: 50px;
+}
+
+.flex-2 {
+  display: flex;
+  gap: 50px;
+
+  padding-bottom: 100px;
+}
+
+.dropdown-anime {
+  padding-left: 2%;
+}
+
+@media (max-width: 770px) {
+  .dropdown-anime {
+    width: 100%;
+  }
+  .dropdown-item-top,
+  .dropdown-item-bot {
+    width: 100%;
+  }
+  .dropdown-main {
+    width: 80%;
+  }
+
+  .dropdown-item {
+    width: 80%;
+  }
+
+  .dropdown--bg {
+    width: 80%;
+  }
+}
+
+.flex-2 {
+  padding-left: 10%;
+}
+
+.dropdown-anime {
+  padding-left: 10%;
+}
+
+@media (max-width: 800px) {
+  .flex-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+  }
+  .video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+  }
+
+  .dropdown-anime {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vid-left,
+  .vid-right {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .v-l-2 video {
+    height: 100% !important;
+  }
+
+  .vid-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .v-l-2 {
+    width: 150%;
+    height: 180px !important;
+  }
+
+  .v-l-3 img {
+    height: 80% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .dropdown-item {
+    width: 100% !important;
+  }
+  .dropdown-item-top {
+    gap: 20px;
+  }
+  .h-1 {
+    height: 300px !important;
+  }
+
+  .dropdown--bg {
+    width: 100% !important
+    ;
+  }
+  .dropdown-anime {
+    padding-left: 0% !important;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+}
+
+@media (max-width: 365px) {
+  .dropdown-item {
+    height: 80px;
+  }
+}
+@media (max-width: 1000px) {
+  iframe {
+    height: 80%;
+    width: 60%;
+  }
+  .flex-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
