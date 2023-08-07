@@ -23,7 +23,7 @@ const Navbar = (pth) => {
     liAnime.current = document.querySelector(".li-animate");
     liClass1.current = document.querySelector(".listings-li");
 
-    if (pth.pth === "/") {
+    if (pth.pth === "/r2") {
       liClass1.current.classList.remove("cl-bl");
 
       liClass.current.classList.add("cl-bl");
@@ -90,7 +90,7 @@ const Navbar = (pth) => {
         </NavLink>
         <NavLink
           key={Math.random() * 9999}
-          to="/"
+          to="/r2"
           // activeclassname="cl-bl"
           className="navbar-li-link"
         >
